@@ -4,7 +4,7 @@ import Profile from "@/components/Profile";
 import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import { post } from "@/components/PromptCardList";
-const Page = () => {
+const MyProfile = () => {
   const router = useRouter();
   const { data: session } = useSession();
   const [posts, setPosts] = useState([]);
@@ -51,4 +51,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default MyProfile;
