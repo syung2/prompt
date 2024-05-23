@@ -1,6 +1,6 @@
 import Feed from "@/components/Feed";
 import React from "react";
-
+export const dynamic = "force-dynamic";
 const page = () => {
   return (
     <section className="w-full flex-center flex-col">

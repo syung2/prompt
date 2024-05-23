@@ -1,6 +1,7 @@
 import Prompt from "@/models/prompt";
 import { connectToDB } from "@/utils/database";
 import { NextRequest, NextResponse } from "next/server";
+export const dynamic = "force-dynamic";
 
 // GET 함수 정의
 export const GET = async (req: NextRequest) => {
